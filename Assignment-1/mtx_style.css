@@ -1,0 +1,39 @@
+table {
+
+  border-radius: 25px;
+  border-width: thick;
+  width: 400px;
+  height: 200px;
+}
+th{
+    height: 120px;
+    width:120px;
+    border:1px solid black;
+    border-radius: 25px;
+
+
+ }
+ td{
+    width:120px;
+    height: 120px;
+    border:1px solid black;
+    border-radius: 25px;
+
+ }
+ textarea {
+    display: block;
+    border: 1px solid #f00;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    border-radius: 25px;
+}
+body  {
+    background-image: url("https://previews.123rf.com/images/bgton/bgton1501/bgton150100146/35134850-vintage-background-with-retro-alarm-clock-on-table-10-30-am-good-time-of-coffee-for-healthy.jpg");
+    /* background-color: #cccccc; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.planner{
+  margin-top: 50px;
+}

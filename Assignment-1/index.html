@@ -1,0 +1,132 @@
+<!-- intro--)same as first page
+next sec--)Blog that help you to manage time
+navbar--)Schedule Planner,Goal of the day,Pomodoro Clck,Questions,Notes to self -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Start</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#e3f2fd;">
+      <a class="navbar-brand" href="https://www.flaticon.com/free-icons/protocol" title="protocol icons">Protocol icons created by iconmas - Flaticon</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="matrix_table.html">Plan Your Day 🙂</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="https://youtu.be/5qap5aO4i9A" tabindex="-1" aria-disabled="true">lo-fi music</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="https://pomofocus.io" tabindex="-1" aria-disabled="true">Pomodoro Clock</a>
+
+          </li>
+
+          <li><a class="nav-link " href="" tabindex="-1" aria-disabled="true">Notes to self</a></li>
+          <li><a class="nav-link " href="" tabindex="-1" aria-disabled="true">QuickLinks</a></li>
+          <!-- <li><a class="nav-link " href="" tabindex="-1" aria-disabled="true">Questions</a></li> -->
+          <li>  <a class="nav-link " href="" tabindex="-1" aria-disabled="true">Userprofile</a></li>
+
+        </ul>
+
+      </div>
+
+
+</nav>
+
+
+<div >
+  <h1 class="main">Manage your time and tasks all in one place</h1>
+  <p >Page Name lets you consolidate all the tools you use, <br>so you can block time for your tasks and see everything you need to get done in Our Customized Schedule Planner.</p>
+</div>
+<div >
+  <p>“It’s not enough to be busy, so are the ants. <br>The question is, what are we busy about?”
+
+– Henry David Thoreau</p>
+
+</div>
+<div class="slider">
+     <div class="slides">
+       <!--radio buttons start-->
+       <input type="radio" name="radio-btn" id="radio1">
+       <input type="radio" name="radio-btn" id="radio2">
+       <input type="radio" name="radio-btn" id="radio3">
+       <!-- <input type="radio" name="radio-btn" id="radio4"> -->
+       <!--radio buttons end-->
+       <!--slide images start-->
+       <div class="slide first">
+         <a href="https://www.eisenhower.me/eisenhower-matrix/"> <img src="Images/3.jpeg" alt=""></a>
+
+       </div>
+
+       <div class="slide">
+         <a href="https://www.betterup.com/blog/time-blocking"><img src="Images/1.jpeg" alt=""></a>
+         <img src="Images/1.jpeg" alt="">
+       </div>
+       <div class="slide">
+
+           <a href="https://medium.datadriveninvestor.com/11-powerful-time-management-tips-on-
+            how-to-manage-your-time-d1feb27e91e2">
+              <img src="Images/2.jpeg">
+            </a>
+
+
+
+       </div>
+
+       <!--slide images end-->
+       <!--automatic navigation start-->
+       <div class="navigation-auto">
+         <div class="auto-btn1"></div>
+         <div class="auto-btn2"></div>
+         <div class="auto-btn3"></div>
+
+       </div>
+       <!--automatic navigation end-->
+     </div>
+     <!--manual navigation start-->
+     <div class="navigation-manual">
+       <label for="radio1" class="manual-btn"></label>
+       <label for="radio2" class="manual-btn"></label>
+       <label for="radio3" class="manual-btn"></label>
+
+     </div>
+     <!--manual navigation end-->
+   </div>
+   <!--image slider end-->
+
+   <script type="text/javascript">
+   var counter = 1;
+   setInterval(function(){
+     document.getElementById('radio' + counter).checked = true;
+     counter++;
+     if(counter >3){
+       counter = 1;
+     }
+   }, 4000);
+   </script>
+
+
+   <div class="bottom-container">
+
+     <p class="copyright"style="color:#EAF6F6">© 2022 TEAM_NAME.</p>
+   </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+</html>
